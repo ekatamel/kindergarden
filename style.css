@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.header__container,
+.banner__container,
+.mission__container,
+.about-us__container,
+.our-team__container,
+.contact__container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: -10px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: black;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.banner {
+  background-image: url("assignment/graphics/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+
+.banner__title {
+  color: white;
+  padding-top: 5em;
+  padding-bottom: 0.5em;
+  font-size: 2em;
+  width: 6em;
+  border-bottom: 4px solid white;
+}
+
+.banner__title_yellow {
+  color: #FFE964;
+}
+
+.banner__title_red {
+  color:#FF523D;
+}
+
+.banner__title_blue {
+  color: #223C88;
+}
+
+.mission {
+  background-color: #FFE964;
+  height: 25em;
+}
+
+.mission__title, .about-us__title, .our-team__title, .contact__title {
+  margin-top: 0;
+  font-size: 2.5rem;
+  padding-top: 3em;
+  font-weight: 900;
+  text-align: block;
+}
+
+.mission__subtitle, .about-us__subtitle, .our-team__subtitle {
+  line-height: 1.5em;
+}
+
+.mission__title_center {
+  text-align: center;
+}
+
+.mission__subtitle_center {
+  text-align: center;
+}
+
+.about-us {
+  background-color: white;
+  height: 25em;
+}
+
+.our-team {
+  background-color: #FF523D;
+  color: white;
+}
+
+.our-team__all {
+  width: 25%; 
+  margin: 0 auto;
+  text-align: center;
+}
+
+.our-team__image {
+  width: 8em;
+  height: 8em;
+}
+
+.our-team__person {
+  padding-bottom: 2em;
+}
+
+.our-team__name {
+  margin-bottom: 0.3em;
+}
+
+.our-team__position {
+  margin-top: 0;
+}
+
+.contact {
+  background-color: #223C88;
+  color: white;
+  height: 25em;
+}
+
+
+
+
